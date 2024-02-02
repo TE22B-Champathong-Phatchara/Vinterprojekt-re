@@ -224,7 +224,7 @@ while(re == true)
                 Thread.Sleep(2000);
                 Console.WriteLine("If you accept this as the ending, the game will end.");
                 Thread.Sleep(2000);
-                Console.WriteLine("If not, the game will continue. Would you like to accept it? (Y/N)\n");
+                Console.WriteLine("If not, the game will restart. Would you like to accept it? (Y/N)\n");
 
                 while (true)
                 {
@@ -471,7 +471,7 @@ while(re == true)
                 {
                     System.Console.WriteLine("\nYou look at the table.");
                     Thread.Sleep(1000);
-                    System.Console.WriteLine("Except the alarm, there isn't much on your \u001b[36desk\u001b[0m.");
+                    System.Console.WriteLine("Except the alarm, there isn't much on your \u001b[36mdesk\u001b[0m.");
                     Thread.Sleep(2000);
                     System.Console.WriteLine("Just a lamp and a \u001b[36mphotograph\u001b[0m of someone.\n");
                     continue;
@@ -949,42 +949,13 @@ while(re == true)
                     break;
 
                 }
-                
-            
-                
-
-
-
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
-                
                 if ((todo == "check your room" && RoomChange != 0)||
                         (todo == "check hallway" && RoomChange != 1)||
                         (todo == "check living room" && RoomChange != 2)||
                         (todo == "check kitchen" && RoomChange != 3)||
                         (todo == "check bathroom" && RoomChange != 4))
                 {
-                    System.Console.WriteLine("\nYou ask youself: How can I check if I am not there?\n");
+                    System.Console.WriteLine("\nYou ask youself: How can I check if I'm not there?\n");
                     continue;
                 }
                 else
